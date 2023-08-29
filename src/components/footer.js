@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = () => (
-    <div className="bg-blue-900 text-white w-full z-50 mt-16">
+    <div className="bg-[#FBE7E6] text-black w-full z-50 mt-16">
         <footer className=" mx-auto max-w-screen-2xl px-4 md:px-8">
             <div className="mb-16 grid grid-cols-2 gap-12 pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
                 <div className="col-span-full lg:col-span-2">
@@ -15,7 +15,8 @@ const Footer = () => (
                         >
                             <StaticImage
                                 quality={100}
-                                className="h-full w-full"
+                                className="h-full w-full rounded-full"
+                                imgClassName="rounded-full"
                                 placeholder="blurred"
                                 src="../images/favicon.png"
                                 alt="seovileo"
@@ -34,7 +35,7 @@ const Footer = () => (
                         <span class="inline-flex">
                             <Link
                                 to="https://www.facebook.com/seovileo/"
-                                class="text-yellow-400"
+                                class="text-yellow-500"
                             >
                                 <svg
                                     aria-label="facebook"
@@ -50,7 +51,7 @@ const Footer = () => (
                             </Link>
                             <Link
                                 to="https://twitter.com/seovileo"
-                                class="ml-4 text-yellow-400"
+                                class="ml-4 text-yellow-500"
                             >
                                 <svg
                                     aria-label="twitter"
@@ -66,7 +67,7 @@ const Footer = () => (
                             </Link>
                             <Link
                                 to="https://www.instagram.com/seovileo/"
-                                class="ml-4 text-yellow-400"
+                                class="ml-4 text-yellow-500"
                             >
                                 <svg
                                     aria-label="instagram"
@@ -92,7 +93,7 @@ const Footer = () => (
                             <Link
                                 to="mailto:
 seovileo@email.com"
-                                class="ml-4 text-yellow-400"
+                                class="ml-4 text-yellow-500"
                             >
                                 <svg
                                     aria-label="czat"
@@ -111,10 +112,10 @@ seovileo@email.com"
                 </div>
 
                 <div>
-                    <div className="mb-4 font-bold uppercase tracking-widest text-red-200">
+                    <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         Szybkie Linki
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-400 my-6" />
+                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
 
                     <nav className="flex flex-col gap-4">
 
@@ -155,10 +156,10 @@ seovileo@email.com"
                 </div>
 
                 <div>
-                    <div className="mb-4 font-bold uppercase tracking-widest text-red-200">
+                    <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         Pomoc
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-400 my-6" />
+                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
 
                     <nav className="flex flex-col gap-4">
                         <div>
@@ -182,10 +183,10 @@ seovileo@email.com"
                 </div>
 
                 <div>
-                    <div className="mb-4 font-bold uppercase tracking-widest text-red-200">
+                    <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         FAQ
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-400 my-6" />
+                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
 
                     <nav className="flex flex-col gap-4">
                         <div>

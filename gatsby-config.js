@@ -5,14 +5,14 @@ module.exports = {
     siteMetadata: {
         title: ``,
         description: ``,
-        author: `Tibidabu`,
-        siteUrl: `https://tibidabu.pl`,
+        author: `Animani`,
+        siteUrl: `https://Animani.pl`,
     },
     plugins: [
         {
             resolve: "gatsby-source-datocms",
             options: {
-                apiToken: "f1a313f4c2495df96cd4805efd50e5",
+                apiToken: "d35c5a40617b75e69bd1596ead06e9",
             },
         },
         "gatsby-plugin-image",
@@ -46,13 +46,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Tibidabu`,
+                name: `Animani`,
                 short_name: `starter`,
                 start_url: `/`,
-                background_color: `#19C0B6`,
-                theme_color: `#19C0B6`,
+                background_color: `#FBE7E6`,
+                theme_color: `#FBE7E6`,
                 display: `standalone`,
-                icon: `src/images/logo.jpg`,
+                icon: `src/images/favicon.jpg`,
             },
         },
     ],

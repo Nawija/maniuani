@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import Footer from "./footer";
+import Rezerwation from "./rezerwation";
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
@@ -18,7 +19,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header siteTitle={data.site.siteMetadata?.title || `Seovileo`} />
-
+            <Rezerwation />
             <main className="w-full overflow-hidden min-h-screen relative">
                 {children}
             </main>

@@ -7,9 +7,23 @@
 }
 @keyframes changeColor {
     0% {
-        color: #e6b000; 
+        color: #e6b000;
     }
     100% {
-        color: #5271ff; 
+        color: #5271ff;
+    }
+}
+
+.scale-up-top {
+    animation: scale-up-top 11s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s
+        infinite alternate;
+}
+
+@keyframes scale-up-top {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
     }
 }
