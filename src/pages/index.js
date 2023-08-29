@@ -38,7 +38,7 @@ const IndexPage = () => {
     return (
         <>
             <Layout>
-                <Slider {...settings} className="relative overflow-hidden">
+                <Slider {...settings} className="relative overflow-hidden max-w-[2200px] mx-auto">
                     {data.allDatoCmsSlajdy.edges.map(({ node }) => (
                         <GatsbyImage
                             className="scale-up-top"

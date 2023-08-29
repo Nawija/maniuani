@@ -212,7 +212,7 @@ seovileo@email.com"
 
             <div className="border-t border-white w-3/4 mx-auto py-8 text-center text-sm ">
                 © 2023 - Design by{" "}
-                <Link className="text-gray-300" to="https://seovileo.pl/">
+                <Link className="text-yellow-500" to="https://seovileo.pl/">
                     @Seovileo.pl
                 </Link>{" "}
                 / All rights reserved.
