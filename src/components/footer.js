@@ -35,7 +35,7 @@ const Footer = () => (
                         <span class="inline-flex">
                             <Link
                                 to="https://www.facebook.com/seovileo/"
-                                class="text-yellow-500"
+                                class="text-red-600"
                             >
                                 <svg
                                     aria-label="facebook"
@@ -51,7 +51,7 @@ const Footer = () => (
                             </Link>
                             <Link
                                 to="https://twitter.com/seovileo"
-                                class="ml-4 text-yellow-500"
+                                class="ml-4 text-red-600"
                             >
                                 <svg
                                     aria-label="twitter"
@@ -67,7 +67,7 @@ const Footer = () => (
                             </Link>
                             <Link
                                 to="https://www.instagram.com/seovileo/"
-                                class="ml-4 text-yellow-500"
+                                class="ml-4 text-red-600"
                             >
                                 <svg
                                     aria-label="instagram"
@@ -93,7 +93,7 @@ const Footer = () => (
                             <Link
                                 to="mailto:
 seovileo@email.com"
-                                class="ml-4 text-yellow-500"
+                                class="ml-4 text-red-600"
                             >
                                 <svg
                                     aria-label="czat"
@@ -115,14 +115,14 @@ seovileo@email.com"
                     <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         Szybkie Linki
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
+                    <div className="h-[1.3px] w-6 bg-red-600 my-6" />
 
                     <nav className="flex flex-col gap-4">
 
                         <div>
                             <Link
                                 to="/o-nas"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 O Nas
                             </Link>
@@ -131,7 +131,7 @@ seovileo@email.com"
                         <div>
                             <Link
                                 to="/oferta"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Oferta
                             </Link>
@@ -139,7 +139,7 @@ seovileo@email.com"
                         <div>
                             <Link
                                 to="/galeria"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Galeria
                             </Link>
@@ -147,7 +147,7 @@ seovileo@email.com"
                         <div>
                             <Link
                                 to="/kontakt"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Kontakt
                             </Link>
@@ -159,13 +159,13 @@ seovileo@email.com"
                     <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         Pomoc
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
+                    <div className="h-[1.3px] w-6 bg-red-600 my-6" />
 
                     <nav className="flex flex-col gap-4">
                         <div>
                             <Link
                                 to="/kontakt"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Kontakt
                             </Link>
@@ -174,7 +174,7 @@ seovileo@email.com"
                         <div>
                             <Link
                                 to="/kontakt"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Czat
                             </Link>
@@ -186,13 +186,13 @@ seovileo@email.com"
                     <div className="mb-4 font-bold uppercase tracking-widest text-red-800">
                         FAQ
                     </div>
-                    <div className="h-[1.3px] w-6 bg-yellow-500 my-6" />
+                    <div className="h-[1.3px] w-6 bg-red-600 my-6" />
 
                     <nav className="flex flex-col gap-4">
                         <div>
                             <Link
                                 to="/budowa"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Polityka prywatności
                             </Link>
@@ -201,7 +201,7 @@ seovileo@email.com"
                         <div>
                             <Link
                                 to="/budowa"
-                                className=" transition duration-100 hoverLink linkFooter"
+                                className=" transition hoverLink linkFooter"
                             >
                                 Cookies
                             </Link>
@@ -212,7 +212,7 @@ seovileo@email.com"
 
             <div className="border-t border-white w-3/4 mx-auto py-8 text-center text-sm ">
                 © 2023 - Design by{" "}
-                <Link className="text-yellow-500" to="https://seovileo.pl/">
+                <Link className="text-red-600" to="https://seovileo.pl/">
                     @Seovileo.pl
                 </Link>{" "}
                 / All rights reserved.

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import { BsFillCalendarHeartFill } from "react-icons/bs";
-
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
